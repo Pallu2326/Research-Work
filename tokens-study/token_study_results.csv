@@ -1,0 +1,6 @@
+Domain,Chars,Gemini,Qwen,GPT-4o,Gemini/100ch,Qwen/100ch,GPT/100ch
+Legal (Standard),58,13,11,11,22.41,18.97,18.97
+Legal (Complex),185,33,35,34,17.84,18.92,18.38
+Technical Catalogue,99,29,28,26,29.29,28.28,26.26
+Code (Go),81,29,27,26,35.8,33.33,32.1
+Creative Marketing,107,18,17,17,16.82,15.89,15.89
