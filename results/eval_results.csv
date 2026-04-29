@@ -1,92 +1,93 @@
 sample_id,provider,mode,unsupported_claim_rate,expected_coverage,risk_flag,output
-nda-001,gemini,naive,0.5,0.0,medium,"Okay, here is a mutual confidentiality clause drafted for Bangalore, India jurisdiction, with a 2-year survival period and customary exceptions.
+nda-001,gemini,naive,1.0,0.0,high,"Okay, here is a mutual confidentiality clause drafted for a contract governed by the laws of Bangalore, India, with a 2-year survival period and customary"
+nda-001,gemini,grounded,0.3333333333333333,0.0,medium,"Here is a draft mutual confidentiality clause:
 
 ---
 
-"
-nda-001,gemini,grounded,0.42857142857142855,0.0,medium,"Here is a draft mutual confidentiality clause:
+**Confidentiality**
 
----
+1.  **Definition of Confidential Information.** ""Confidential Information"" means"
+nda-001,groq,naive,0.6296296296296297,0.25,high,"**CONFIDENTIALITY CLAUSE**
 
-**[Clause Number]. Confidentiality**
+This Confidentiality Clause (""Clause"") is entered into on [DATE] (""Effective Date"") by and between [PARTY A NAME], a [PARTY A TYPE] with its principal place of business at [PARTY A ADDRESS] (""Party A""), and [PARTY B NAME], a [PARTY B TYPE] with its principal place of business at [PARTY B ADDRESS] (""Party B""), collectively referred to as the ""Parties"".
 
-1.  **Definition of Confidential Information.** """
-nda-001,groq,naive,0.6666666666666666,0.25,high,"**CONFIDENTIALITY CLAUSE**
+**1. CONFIDENTIAL INFORMATION**
 
-This Confidentiality Clause (""Clause"") is entered into on [DATE] (""Effective Date"") by and between [COMPANY NAME], a company incorporated under the laws of India, with its registered office at [REGISTERED OFFICE ADDRESS], Bangalore, India (""Disclosing Party""), and [RECIPIENT COMPANY NAME], a company incorporated under the laws of India, with its registered office at [REGISTERED OFFICE ADDRESS], Bangalore, India (""Receiving Party"").
+For the purposes of this Clause, ""Confidential Information"" means all information, whether written or oral, tangible or intangible, that is disclosed by one Party (""Disclosing Party"") to the other Party (""Receiving Party"") in connection with the discussions, negotiations, or transactions between the Parties, including but not limited to:
 
-**1. DEFINITIONS**
+* Business plans, strategies, and methods
+* Technical data, trade secrets, and know-how
+* Financial information, including budgets and forecasts
+* Customer lists and customer information
+* Software, algorithms, and other intellectual property
+* Any other information that is marked as confidential or that a reasonable person would understand to be confidential
 
-For the purposes of this Clause, the following definitions shall apply:
-
-* ""Confidential Information"" means all information, whether written or oral, tangible or intangible, that is disclosed by the Disclosing Party to the Receiving Party, including but not limited to trade secrets, business strategies, technical data, product information, software, and other proprietary information.
-* ""Purpose"" means the purpose of [STATE PURPOSE, e.g., ""evaluating a potential business opportunity""].
-
-**2. OBLIGATIONS**
+**2. OBLIGATIONS OF THE RECEIVING PARTY**
 
 The Receiving Party agrees to:
 
-* Keep the Confidential Information confidential and not disclose it to any third party without the prior written consent of the Disclosing Party;
-* Use the Confidential Information solely for the Purpose and not for any other purpose;
-* Take reasonable precautions to protect the Confidential Information, including but not limited to storing it in a secure location and restricting access to it to those employees or agents who have a need to know.
+* Hold the Confidential Information in confidence and not disclose it to any third party without the prior written consent of the Disclosing Party
+* Use the Confidential Information solely for the purpose of evaluating and pursuing the discussions, negotiations, or transactions between the Parties
+* Take reasonable precautions to protect the Confidential Information, including but not limited to storing it in a secure location and restricting access to it to those employees or agents who have a need to know
 
 **3. EXCEPTIONS**
 
-The obligations of confidentiality set out in this Clause shall not apply to any Confidential Information that:
+The obligations of the Receiving Party under this Clause shall not apply to any Confidential Information that:
 
-* Is or becomes generally available to the public other than as a result of a breach of this Clause;
-* Was already known to the Receiving Party prior to its disclosure by the Disclosing Party;
-* Is disclosed by a third party who is not under any obligation of confidentiality;
-* Is required to be disclosed by law or by a court order, provided that the Receiving Party gives the Disclosing Party prior notice of such disclosure and cooperates with the Disclosing Party in seeking a protective order.
+* Is or becomes generally available to the public through no fault of the Receiving Party
+* Is already known to the Receiving Party at the time of disclosure, as evidenced by written records
+* Is lawfully obtained by the Receiving Party from a third party who has the right to disclose it
+* Is required to be disclosed by law, court order, or other governmental authority, provided that the Receiving Party gives the Disclosing Party prior notice and an opportunity to contest such disclosure
 
 **4. SURVIVAL**
 
-The obligations of confidentiality set out in this Clause shall survive for a period of two (2) years from the Effective Date.
+The obligations of the Receiving Party under this Clause shall survive for a period of two (2) years from the Effective Date.
 
 **5. REMEDIES**
 
-The Receiving Party acknowledges that a breach of this Clause may cause irreparable harm to the Disclosing Party, and that monetary damages may not be sufficient to compensate for such breach. In the event of a breach or threatened breach of this Clause, the Disclosing Party may seek injunctive relief, in addition to any other remedies available at law or in equity.
+The Parties agree that any breach of this Clause may cause irreparable harm and that monetary damages may not be sufficient to compensate for such breach. In the event of a breach or threatened breach of this Clause, the Disclosing Party may seek injunctive relief, in addition to any other remedies available at law or in equity.
 
 **6. GOVERNING LAW**
 
-This Clause shall be governed by and construed in accordance with the laws of India, and the courts of Bangalore, India shall have exclusive jurisdiction to resolve any disputes arising out of or in connection with this Clause.
+This Clause shall be governed by and construed in accordance with the laws of India, and the Parties submit to the jurisdiction of the courts in Bangalore, India.
 
-By signing below, the parties acknowledge that they have read, understand, and agree to be bound by the terms of this Clause.
+By signing below, the Parties acknowledge that they have read, understand, and agree to be bound by the terms of this Clause.
 
-**DISCLOSING PARTY**
+---
+
+**PARTY A**
 
 Signature: _____________________________
 Name: _____________________________
 Title: _____________________________
 Date: _____________________________
 
-**RECEIVING PARTY**
+**PARTY B**
 
 Signature: _____________________________
 Name: _____________________________
 Title: _____________________________
 Date: _____________________________"
-nda-001,groq,grounded,1.0,0.5,high,"CONFIDENTIALITY
+nda-001,groq,grounded,0.9090909090909091,0.5,high,"CONFIDENTIALITY
 
 The parties agree to maintain the confidentiality of all information disclosed by one party to the other, whether orally or in writing, that is marked as confidential or would reasonably be considered to be of a confidential nature (""Confidential Information"").
 
-The obligations of confidentiality set out in this clause shall survive for a period of two (2) years from the expiration or termination of this Agreement.
+The obligations of confidentiality set out in this Clause shall survive for a period of two (2) years from the expiration or termination of this Agreement.
 
 Notwithstanding the above, the parties shall not be obligated to maintain the confidentiality of any information that:
 
-* is or becomes publicly available through no fault of the receiving party;
-* is already known to the receiving party at the time of disclosure;
-* is independently developed by the receiving party without use of or reference to the Confidential Information;
-* is required to be disclosed by law, provided that the receiving party gives prompt notice to the disclosing party of such requirement and cooperates with the disclosing party's efforts to obtain a protective order or other relief."
-msa-002,gemini,naive,1.0,0.0,high,"Here's a revised Limitation of Liability clause, tailored for a contract under Chennai, India jurisdiction, incorporating your specific requirements.
+(a) is or becomes publicly available through no fault of the receiving party;
+(b) is already known to the receiving party at the time of disclosure;
+(c) is lawfully obtained by the receiving party from a third party without restriction on disclosure;
+(d) is independently developed by the receiving party without use of the disclosing party's Confidential Information; or
+(e) is required to be disclosed by law, provided that the receiving party gives prompt notice to the disclosing party of such requirement and cooperates with the disclosing party in protecting such information to the extent possible.
 
-**Key Considerations for India"
-msa-002,gemini,grounded,0.5,0.0,medium,"Here's a redlined version of the clause, followed by the revised clause:
+By order of the parties, this Clause shall be governed by and construed in accordance with the laws of India, and the courts in Bangalore shall have jurisdiction to resolve any disputes arising out of or in connection with this Clause."
+msa-002,gemini,naive,1.0,0.0,high,"Okay, here's a Limitation of Liability clause drafted for a contract governed by Indian law (Chennai jurisdiction), incorporating your requirements.
 
-**Redlined Clause:**
-
-Liability is limited to direct"
-msa-002,groq,naive,0.7857142857142857,0.75,high,"**LIMITATION OF LIABILITY**
+**Key Considerations for Indian"
+msa-002,gemini,grounded,1.0,0.25,high,"The existing clause effectively caps direct damages and excludes indirect damages as instructed. No significant redlining is required. For enhanced clarity and formality, the following minor revisions can"
+msa-002,groq,naive,0.7692307692307693,0.75,high,"**LIMITATION OF LIABILITY**
 
 Notwithstanding anything to the contrary contained in this Agreement, in no event shall [Service Provider's Name] be liable to [Client's Name] for any damages, whether direct, indirect, special, incidental, or consequential, arising out of or in connection with this Agreement, except for direct damages, which shall be limited to the total amount of fees paid by [Client's Name] to [Service Provider's Name] in the twelve (12) months preceding the event giving rise to the claim.
 
@@ -94,17 +95,17 @@ Notwithstanding anything to the contrary contained in this Agreement, in no even
 
 In no event shall [Service Provider's Name] be liable for any indirect, special, incidental, or consequential damages, including but not limited to, loss of profits, loss of business, loss of data, or any other damages that are not directly related to the services provided under this Agreement.
 
-**DIRECT DAMAGES CAP**
+**APPLICABILITY**
 
-The total liability of [Service Provider's Name] to [Client's Name] for direct damages shall not exceed the total amount of fees paid by [Client's Name] to [Service Provider's Name] in the twelve (12) months preceding the event giving rise to the claim. This limitation of liability shall apply regardless of the form of action, whether in contract, tort, or otherwise, and shall include, but not be limited to, any claims for breach of contract, negligence, or other torts.
-
-**ACKNOWLEDGMENT**
-
-By signing below, [Client's Name] acknowledges that it has read, understands, and agrees to the terms and conditions of this Limitation of Liability clause, and that it is a material term of this Agreement.
+This limitation of liability shall apply to the fullest extent permitted by law and shall survive the termination or expiration of this Agreement.
 
 **GOVERNING LAW**
 
-This Agreement shall be governed by and construed in accordance with the laws of India, and the courts of Chennai shall have exclusive jurisdiction to resolve any disputes arising out of or in connection with this Agreement.
+This Agreement shall be governed by and construed in accordance with the laws of India, and the courts in Chennai shall have exclusive jurisdiction to resolve any disputes arising out of or in connection with this Agreement.
+
+By signing below, the parties acknowledge that they have read, understand, and agree to be bound by the terms and conditions of this Agreement, including the limitation of liability clause.
+
+---
 
 Note: This is a sample clause and should be reviewed and customized according to the specific needs and requirements of the parties involved. It is also recommended to consult with a lawyer to ensure that the clause complies with the applicable laws and regulations in Chennai, India."
-msa-002,groq,grounded,1.0,0.75,high,"NOTWITHSTANDING ANYTHING TO THE CONTRARY, THE LIABILITY OF EITHER PARTY TO THE OTHER FOR ANY CLAIM ARISING UNDER OR IN CONNECTION WITH THIS AGREEMENT SHALL BE LIMITED TO THE AGGREGATE AMOUNT OF FEES PAID BY [CLIENT/BUYER] TO [SERVICE PROVIDER/SELLER] IN THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO THE CLAIM. IN NO EVENT SHALL EITHER PARTY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, REVENUE, OR DATA."
+msa-002,groq,grounded,1.0,0.75,high,"NOTWITHSTANDING ANYTHING TO THE CONTRARY, THE LIABILITY OF EITHER PARTY TO THE OTHER FOR ANY CLAIM ARISING UNDER OR IN CONNECTION WITH THIS AGREEMENT SHALL BE LIMITED TO THE AGGREGATE AMOUNT OF FEES PAID BY [CLIENT/BUYER] TO [SERVICE PROVIDER/SELLER] IN THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE DATE OF THE CLAIM. IN NO EVENT SHALL EITHER PARTY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, REVENUE, OR DATA, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT."
